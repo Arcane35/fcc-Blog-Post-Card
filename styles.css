@@ -1,0 +1,65 @@
+/*Background Styling & Centering*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #f7f7f7, #efefef); /* Fix gradient syntax */
+}
+
+/*Main Card Styling*/
+
+.blog-post-card {
+    background-color: white;
+    font-family: Google Sans, Arial, sans-serif;
+    font-size: small;
+    border-radius: 10px;
+    width: 300px;
+    padding: 0px;
+    text-align: center;
+    box-shadow: #c4c4c4 0px 0px 10px;
+}
+
+.post-content {
+    padding: 10px;
+    margin: 3px;
+}
+
+/*Image and Text Styling*/
+.post-img {
+    display: block;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    margin: 0;
+    object-fit: cover;
+}
+
+.post-title {
+    color: #333;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.post-excerpt {
+    color: #666;
+    margin: 5px 0;
+    padding: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-bottom: 8px;
+}
+
+.learn-more {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.learn-more:hover {
+    background-color: #333;
+}
